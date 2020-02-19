@@ -31,13 +31,21 @@ class ViewController: UIViewController {
     }
     
     
-    func updateUI(){}
+    func updateUI(){
+        
+    }
     
-    func nextQuestion(){}
+    func nextQuestion(){
+        
+    }
     
-    func checkAnswer(){}
+    func checkAnswer(){
+        
+    }
     
-    func startOver(){}
+    func startOver(){
+        
+    }
     
     override var preferredStatusBarStyle: UIStatusBarStyle{
         return UIStatusBarStyle.lightContent

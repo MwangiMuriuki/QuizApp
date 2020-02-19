@@ -13,6 +13,7 @@
 		71B2458023FD5EB7003F266A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B2456C23FD4577003F266A /* ViewController.swift */; };
 		71B2458123FD5EBA003F266A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B2456823FD4577003F266A /* AppDelegate.swift */; };
 		71B2458223FD5EC0003F266A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B2456A23FD4577003F266A /* SceneDelegate.swift */; };
+		71B2458523FD652F003F266A /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B2458423FD652F003F266A /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		71B2457123FD4579003F266A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71B2457423FD4579003F266A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71B2457623FD4579003F266A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71B2458423FD652F003F266A /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		71B2456723FD4577003F266A /* Quizzer */ = {
 			isa = PBXGroup;
 			children = (
+				71B2458323FD64F3003F266A /* Model */,
 				71B2457E23FD46DC003F266A /* Suporting Files */,
 				71B2457D23FD46C4003F266A /* View */,
 				71B2457C23FD4680003F266A /* Controller */,
@@ -67,8 +70,8 @@
 		71B2457C23FD4680003F266A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				71B2456C23FD4577003F266A /* ViewController.swift */,
 				71B2456823FD4577003F266A /* AppDelegate.swift */,
+				71B2456C23FD4577003F266A /* ViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -89,6 +92,14 @@
 				71B2457323FD4579003F266A /* LaunchScreen.storyboard */,
 			);
 			path = "Suporting Files";
+			sourceTree = "<group>";
+		};
+		71B2458323FD64F3003F266A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				71B2458423FD652F003F266A /* Question.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71B2458223FD5EC0003F266A /* SceneDelegate.swift in Sources */,
+				71B2458523FD652F003F266A /* Question.swift in Sources */,
 				71B2458123FD5EBA003F266A /* AppDelegate.swift in Sources */,
 				71B2458023FD5EB7003F266A /* ViewController.swift in Sources */,
 			);
