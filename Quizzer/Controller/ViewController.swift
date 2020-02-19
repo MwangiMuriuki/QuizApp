@@ -25,9 +25,22 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
     }
     
-    
-
     @IBAction func answerSelected(_ sender: UIButton) {
+
+        print(sender.tag)
+    }
+    
+    
+    func updateUI(){}
+    
+    func nextQuestion(){}
+    
+    func checkAnswer(){}
+    
+    func startOver(){}
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle{
+        return UIStatusBarStyle.lightContent
     }
     
 }

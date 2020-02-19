@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		71B2456923FD4577003F266A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B2456823FD4577003F266A /* AppDelegate.swift */; };
-		71B2456B23FD4577003F266A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B2456A23FD4577003F266A /* SceneDelegate.swift */; };
-		71B2456D23FD4577003F266A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B2456C23FD4577003F266A /* ViewController.swift */; };
 		71B2457023FD4577003F266A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B2456E23FD4577003F266A /* Main.storyboard */; };
 		71B2457223FD4579003F266A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71B2457123FD4579003F266A /* Assets.xcassets */; };
 		71B2457523FD4579003F266A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B2457323FD4579003F266A /* LaunchScreen.storyboard */; };
+		71B2458023FD5EB7003F266A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B2456C23FD4577003F266A /* ViewController.swift */; };
+		71B2458123FD5EBA003F266A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B2456823FD4577003F266A /* AppDelegate.swift */; };
+		71B2458223FD5EC0003F266A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B2456A23FD4577003F266A /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -162,9 +162,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71B2456D23FD4577003F266A /* ViewController.swift in Sources */,
-				71B2456923FD4577003F266A /* AppDelegate.swift in Sources */,
-				71B2456B23FD4577003F266A /* SceneDelegate.swift in Sources */,
+				71B2458223FD5EC0003F266A /* SceneDelegate.swift in Sources */,
+				71B2458123FD5EBA003F266A /* AppDelegate.swift in Sources */,
+				71B2458023FD5EB7003F266A /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,7 +310,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H7NFHG83A7;
-				INFOPLIST_FILE = Quizzer/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Quizzer/Suporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,7 +328,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H7NFHG83A7;
-				INFOPLIST_FILE = Quizzer/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Quizzer/Suporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
