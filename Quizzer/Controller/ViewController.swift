@@ -9,6 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let allQuestions = QuestionBank()
+    var pickedAnswer: Bool = false
+    var questionNumber: Int = 0
 
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var progressLabel: UILabel!
@@ -28,6 +32,16 @@ class ViewController: UIViewController {
     @IBAction func answerSelected(_ sender: UIButton) {
 
         print(sender.tag)
+        
+        if (sender.tag == 1) {
+            pickedAnswer = true
+        }else{
+            pickedAnswer = false
+        }
+        
+        checkAnswer()
+        questionNumber += 1
+        nextQuestion()
     }
     
     
